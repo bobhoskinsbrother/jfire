@@ -47,7 +47,7 @@ Hello there gorgeous!
 
 ## Boring, Essential Stuff
 
-###Things That Are in Python Fire, but Not Yet Supported in JFire
+### Things That Are in Python Fire, but Not Yet Supported in JFire
 #### Non Flag Based Arguments
 If you're used to using Fire in python, JFire only supports ```--parameter=value``` approach at this point in time.
 If I can be bothered, I will add ordered parameter values at some point. Feel free to send a pull request
@@ -71,7 +71,7 @@ You can also pass -parameters to javac when compiling to get the same effect.
 
 _Word of warning though: this may introduce security concerns into your code (i.e. being able to see that the parameter name is "password")_
 
-###Type Conversion
+### Type Conversion
 JFire will automatically convert parameters from ```String``` to ```boolean, Boolean, int, Integer, long, Long, double, Double, String```. 
 If you want to convert any other objects you need to pass addtional converters in, like so:
 
@@ -99,5 +99,5 @@ public class Main {
 Again, if you feel strongly that there should be more base converters in there, send me a pull request.
 
 
-###License
+### License
 Since Python fire is Licensed under the Apache 2.0 License, this library is as well
